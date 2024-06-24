@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scene.add(light);
 
     //const raccoon = await loadGLTF('/static/assets/models/upch-dia/upch.gltf');
-    const raccoon = await loadGLTF('/static/assets/models/spartan_armour_mkv_-_halo_reach/scene.gltf');
+    const raccoon = await loadGLTF('/static/assets/models/upch-dia/upch.gltf');
     raccoon.scene.scale.set(0.1, 0.1, 0.1);
     raccoon.scene.position.set(0, -0.4, 0);
 
